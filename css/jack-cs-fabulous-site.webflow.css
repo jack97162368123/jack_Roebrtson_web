@@ -1,6 +1,7 @@
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
+  justify-content: center;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -87,8 +88,16 @@ h6 {
 p {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 160%;
+}
+
+.section-14 {
+
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 a {
@@ -123,7 +132,7 @@ ol {
   margin-top: 0px;
   margin-bottom: 10px;
   padding-left: 40px;
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 img {
@@ -453,7 +462,7 @@ figcaption {
 }
 
 .body-copy {
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .body-copy img {
@@ -519,7 +528,7 @@ figcaption {
   margin-left: 8px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #aaa;
   font-size: 14px;
   line-height: 22%;
@@ -2075,7 +2084,7 @@ figcaption {
 
 .body-4 {
   background-color: transparent;
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .loading-screen {
@@ -2141,7 +2150,7 @@ figcaption {
 
 .heading-6 {
   margin: 4px 162px;
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 54px;
   line-height: 1;
 }
