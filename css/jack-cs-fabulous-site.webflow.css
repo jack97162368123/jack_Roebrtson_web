@@ -95,6 +95,7 @@ p {
 .section-14 {
 
   display: flex;
+
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -683,9 +684,9 @@ figcaption {
 
 .wonderworldtitle{
 
-
-
-
+  max-width: 900px;
+margin-top: 200px;
+margin-bottom: 300px;
 }
 
 .heading-2 {
@@ -710,6 +711,8 @@ figcaption {
 
 .paragraph-2 {
   text-align: center;
+  margin-top: 50px;
+  
 }
 
 .timline {
@@ -1224,10 +1227,11 @@ figcaption {
 }
 
 .container-2 {
+  margin-top: 100px;
   position: relative;
   z-index: 1;
   display: block;
-  max-width: 1200px;
+  max-width: 1000px;
   padding-right: 20px;
   padding-left: 20px;
   -webkit-box-orient: vertical;
