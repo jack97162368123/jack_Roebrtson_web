@@ -65,8 +65,8 @@ html.w-mod-touch * {
 .w-block {
   display: block;
 }
-.w-inline-block {
-  display: inline-block;
+.w-inline-block { 
+  display: inline-block;  
   
 
 }
@@ -520,6 +520,7 @@ textarea.w-select {
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
+ 
 }
 .w-container:before,
 .w-container:after {
