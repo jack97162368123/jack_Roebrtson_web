@@ -10,7 +10,7 @@
   grid-template-rows: auto auto;
   grid-row-gap: 16px;
   grid-column-gap: 16px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
@@ -714,6 +714,7 @@ margin-bottom: 300px;
 .paragraph-2 {
   text-align: center;
   margin-top: 50px;
+  font-size: 1.2em;
   
 }
 
@@ -1229,7 +1230,7 @@ margin-bottom: 300px;
 }
 
 .container-2 {
-  margin-top: 100px;
+  
   position: relative;
   z-index: 1;
   display: block;
@@ -2165,8 +2166,9 @@ margin-bottom: 300px;
 .heading-6 {
   margin: 4px 162px;
   font-family: Montserrat, sans-serif;
-  font-size: 54px;
+  font-size: 1.5em;
   line-height: 1;
+
 }
 
 .text-block-12 {
